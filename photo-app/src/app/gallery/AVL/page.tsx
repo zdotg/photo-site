@@ -8,7 +8,7 @@ const AVLpage = () => {
 
   useEffect(() => {
     // Fetch data on the client side after hydration
-    listFiles('/ZG/AVL')
+    listFiles(['/ZG/AVL'])
       .then((result) => {
         setData(result);
       })

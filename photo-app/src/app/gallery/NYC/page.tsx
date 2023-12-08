@@ -8,7 +8,7 @@ const NYCpage = () => {
 
   useEffect(() => {
     // Fetch data on the client side after hydration
-    listFiles('/ZG/NYC')
+    listFiles(["/ZG/NYC"])
       .then((result) => {
         setData(result);
       })
@@ -28,6 +28,7 @@ const NYCpage = () => {
         <Image
           key={index}
           src={imageUrl}
+          priority={false}
           loading="lazy"  
           width={200}
           height={200}

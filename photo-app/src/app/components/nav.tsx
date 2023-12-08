@@ -5,7 +5,7 @@ import GalleryNavBtn from './galleryNavBtn';
 
 function Nav() { 
     return ( 
-        <div className="flex container w-full justify-evenly">
+        <div className="flex container w-full justify-evenly pb-24">
                 <div className="flex flex-wrap content-center">
                     <Link href='/'>Z.G.</Link>
                 </div>
