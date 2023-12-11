@@ -8,7 +8,7 @@ const baseURL: string = 'https://api.dropboxapi.com/2';
 // Function to get a temporary link for a file
 async function getTemporaryLink(filePath: string): Promise<string> {
   try {
-    const response = await fetch(`https://api.dropboxapi.com/2/files/get_temporary_link`, {
+    const response = await fetch(`${baseURL}/files/get_temporary_link`, {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${accessToken}`,
