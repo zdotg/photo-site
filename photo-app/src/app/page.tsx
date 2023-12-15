@@ -5,9 +5,7 @@ export default function Home() {
     <div className="container mx-auto py-20">
       <div className="flex justify-center">
         <div className="grid grid-cols-3 gap-3 gap-y-3 w-full ">
-          <Image src="/images/jan2020-14.jpg" width={400} height={400} alt="" />
-          <Image src="/images/jan2020-15.jpg" width={400} height={400} alt="" />
-          <Image src="/images/jan2020-16.jpg" width={400} height={400} alt="" />
+          <h1 className="text-3xl text-center">Welcome to my photo gallery</h1>
         </div>
       </div>
     </div>
